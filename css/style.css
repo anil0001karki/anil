@@ -1,0 +1,133 @@
+body {
+  background: #9e9d9d !important;
+  padding-top: 70px; }
+
+.navbar-toggle {
+  margin-top: 0px; }
+
+.icon-bar {
+  color: #18202e;
+  background: #18202e; }
+
+.navbar-nav a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 3px; }
+
+.navbar-nav li:hover a {
+  background: #d43801;
+  transition: linear 0.5s;
+  border-radius: 10px; }
+
+.navbar-nav li a {
+  margin-left: 0px;
+  color: white;
+  opacity: 1 !important;
+  font-size: 16px; }
+
+.navbar-nav .dropdown-menu li a {
+  background: none;
+  margin-top: 2px; }
+
+.navbar-nav ul li:hover a {
+  background-color: black;
+  position: relative;
+  opacity: 1; }
+
+.social-icon {
+  font-size: 36px;
+  display: inline-block; }
+
+#logo {
+  height: 100px;
+  transition: linear 0.3s; }
+
+#bigfont {
+  transition: linear 0.3s; }
+
+#top {
+  position: fixed;
+  z-index: 1;
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
+  width: 95.8%;
+  top: 0;
+  /* At the top */
+  background-color: #1f1d1d;
+  margin-bottom: 0px; }
+
+#navbar {
+  position: fixed;
+  z-index: 1;
+  transition: linear 0.5s;
+  width: 95.8%;
+  box-shadow: 0px 5px 5px 5px rgba(10, 10, 10, 0.2);
+  background-color: #1f1d1d; }
+
+.img-responsive {
+  object-fit: cover; }
+
+#img {
+  height: 320px !important;
+  width: 100%; }
+
+.font {
+  margin: 3% 2% 10% 5%; }
+
+.bigfont {
+  font-family: Source sans;
+  color: #fff;
+  text-align: center;
+  margin: 15% 10% 0% 10%; }
+
+.font {
+  font-family: Source sans;
+  color: #fff;
+  text-align: center; }
+
+.parallex {
+  background-image: url("../images/contact.jpg");
+  padding: 2%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fonttitle {
+  font-family: Source sans;
+  color: #fff;
+  text-align: center;
+  margin-top: 4%; }
+
+#social {
+  padding: 20px;
+  height: 2%;
+  width: 60%; }
+
+.slideanim {
+  visibility: hidden; }
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  visibility: visible; }
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%); } }
+
+/*# sourceMappingURL=style.css.map */

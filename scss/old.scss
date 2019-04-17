@@ -1,0 +1,148 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+
+// --------------------------------------------   for the second page=================================================================
+// =====================================================================================================================================
+%text{
+    color: black;
+    font-size: 72px;
+    text-align: justify;
+}
+
+  
+  #light {
+    background: -webkit-linear-gradient(top, rgb(29, 27, 27) 0%, rgb(126, 92, 20) 100%);
+    height: 510px;
+    margin-top: 0px;
+    opacity: 1;
+    overflow: hidden; }
+  
+  .navbar-toggle {
+    margin-top: 0px; }
+  
+  .icon-bar {
+    color: #18202e;
+    background: #18202e; }
+  
+  .navbar-nav a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px; }
+  
+  .navbar-nav li:hover a {
+    background: #d43801;
+    transition: linear 0.5s;
+    border-radius: 10px; }
+  
+  .navbar-nav li a {
+    margin-left: 0px;
+    color: black;
+    opacity: 1 !important;
+    font-size: 16px; }
+  
+  .navbar-nav .dropdown-menu li a {
+    background: none;
+    margin-top: 2px; }
+  
+  .navbar-nav ul li:hover a {
+    background-color: black;
+    position: relative;
+    opacity: 1; }
+  
+  .social-icon {
+    font-size: 36px;
+    display: inline-block; }
+  
+  
+  
+  .img-responsive {
+    object-fit: cover;
+    height: 650px!important;
+    width: 100%;
+     }
+  .fixednav{
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99; 
+  }
+  .height, .img, .slider-wrapper {
+    width: 100%; }
+// end of menu===========================================================
+//==============================================================  
+  
+  .slider-wrapper {
+    margin: 0;
+    padding: 0;
+    z-index: 500;
+    opacity: 1;
+    width: 100%;
+    background: #FFF;
+     }
+  
+  .slider-wrapper li {
+    display: none; }
+  
+  .slider-wrapper .current-slide {
+    display: flex; }
+  
+  .slider-wrapper img {
+    
+    max-width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    text-align: center; }
+  
+  /**
+   * ---[Botones-Control] ---------------------- 
+   **/
+  .control-buttons {
+    margin-top: 15px;
+    text-align: center;
+    padding-left: 0px; }
+  
+  .control-buttons li {
+    cursor: pointer;
+    display: inline-block;
+    background: #424f66;
+    text-indent: -99999px;
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  
+  .control-buttons li.active {
+    background: #00c5b9; }
+  
+  #box1 {
+    box-shadow: 5px 5px;
+    height: auto;
+    background: white;
+    margin-left: 7%; }
+    #box1 .img {
+      margin: 10%;
+      height: auto;
+      width: auto; }
+
+    //   for body page
+    
+  
+  /*# sourceMappingURL=style.css.map */
+  
